@@ -1,0 +1,133 @@
+/* ============
+common style 
+============== */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #E02C6D;
+    background-color: #E02C6D;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* ==============
+top part style 
+============== */
+.first-section{
+    position: relative;
+    width: 100%;
+    height: 677px;
+    background-image: linear-gradient(darkblue, black);
+}
+.text-banner{
+    display: flex;
+    
+}
+.text{
+    color:  #FFFFFF;
+    font-size: 40px;
+    width: 485px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.text h1:hover{
+    transform: rotate(360deg);
+    transition: transform 1s ease-in-out;
+}
+.banner{
+    position: absolute;
+    left: 800px;
+    top: 80px;
+}
+.banner img{
+    width: 555px;
+height: 438px;
+}
+.banner img:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+/* =============
+middle part style 
+============== */
+
+.player img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+
+}
+.player{
+    width: 300px;
+    height: 474px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-row-gap: 30px;
+    margin: 50px 250px;   
+}
+/* =============
+pre-last part style 
+============== */
+.fifatext-photo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fifatext{
+    width: 466px;
+height: 309px;
+}
+.fifatext h1{
+    font-size: 35px;
+}
+.photo img{
+    width: 567px;
+    height: 427px; 
+}
+/* =============
+last part style 
+============== */
+hr{
+    border: 1px solid grey;
+    margin-top: 50px;
+}
+.sponsor-text h3{
+    text-align: center;
+    margin: 0%;
+}
+.all-sponsor{
+    display: flex;
+    justify-content: space-around;
+}
+.sponsor img{
+    width: 114px;
+    height: 57px;
+}
+.sponsor img:hover{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+    
+}
+/* =============
+    footer style 
+============== */
+footer img{
+    width: 183px;
+    height: 50px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
